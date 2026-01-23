@@ -36,18 +36,25 @@ public class CompanyManagement {
         return partnerEmployee;
     }
 
-    /* Hmma ishchilarni chiqarish */
-
-    public void printAllEmployeeDetail(){
-        for (Employee employee:arrayEmployee){
-            if (employee!=null){
-                System.out.println(employee);
-            }
-        }
+    /* EarEmployee */
+    public EarEmployee addEarEmployee(String name, String surname, String work, Double salary){
+        EarEmployee earEmployee=new EarEmployee(name, surname, work, salary);
+        arrayEmployee[index++]=earEmployee;
+        return earEmployee;
     }
 
-    /* Ishchlarni ism familyasi va qachon ishlashini chiqarish */
 
+
+    /* Hmma ishchilarni chiqarish */
+//    public void printAllEmployeeDetail(){
+//        for (Employee employee:arrayEmployee){
+//            if (employee!=null){
+//                System.out.println(employee);
+//            }
+//        }
+//    }
+
+    /* Ishchlarni ism familyasi va qachon ishlashini chiqarish */
 //    public void printEmployeeType(){
 //        for (Employee employee:arrayEmployee){
 //            if (employee!=null){
@@ -74,7 +81,7 @@ public class CompanyManagement {
 //        }
 //    }
 
-//    /* Barcha ishchilar uchun sug'irta miqdori */
+    /* Barcha ishchilar uchun sug'irta miqdori */
 //    public void showAllInsuranceTax(){
 //        for (Employee employee:arrayEmployee){
 //            if (employee!=null){
@@ -83,6 +90,7 @@ public class CompanyManagement {
 //        }
 //    }
 //
+
     /* Soliqlardan keyin ishchilarni qoliga tegadigan summa */
     public void showAllSalaryAfterAllTaxes(){
         for (Employee employee:arrayEmployee){

@@ -21,6 +21,7 @@ public class Main {
         PartnerEmployee partnerEmployee2=companyManagement.addPartnerEmployee("Zohidjon","Zufaraov","Dasturchi",15590.0,"Quldrov");
         PartnerEmployee partnerEmployee3=companyManagement.addPartnerEmployee("Sardor","Dostonov","Makler",4500.0,"Tepa");
 
+        EarEmployee employee1=companyManagement.addEarEmployee("Sanjar","Suloymonov","Quloq",20.0);
 //        companyManagement.printAllEmployeeDetail();
 //        companyManagement.printEmployeeType();
 //        companyManagement.showAllEmployeeBonus();

@@ -19,4 +19,18 @@ public class PartnerEmployee extends  Employee{
         return super.getSalary()*0.75;
     }
 
+    @Override
+    public Double getPensiya() {
+        return 0.0;
+    }
+
+    @Override
+    public Double getInsurance() {
+        return 0.0;
+    }
+
+    @Override
+    public String getEmployeeType() {
+        return "Partner";
+    }
 }

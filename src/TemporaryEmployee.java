@@ -23,4 +23,18 @@ public class TemporaryEmployee extends  Employee{
         return "Temporary";
     }
 
+    @Override
+    public Double getOneTimeBonus() {
+        return 0.0;
+    }
+
+    @Override
+    public Double getPensiya() {
+        return 0.0;
+    }
+
+    @Override
+    public Double getInsurance() {
+        return 0.0;
+    }
 }
