@@ -60,10 +60,19 @@ public class CompanyManagement {
 //    }
 
     /* Barcha ishchilardan olib qolinadigan pensiya moqdori */
-    public void showAllPensionTax(){
+//    public void showAllPensionTax(){
+//        for (Employee employee:arrayEmployee){
+//            if (employee!=null){
+//                System.out.println(employee.getName()+" "+employee.getSurname()+" "+employee.getPensiya());
+//            }
+//        }
+//    }
+
+    /* Barcha ishchilar uchun sug'irta miqdori */
+    public void showAllInsuranceTax(){
         for (Employee employee:arrayEmployee){
             if (employee!=null){
-                System.out.println(employee.getName()+" "+employee.getSurname()+" "+employee.getPensiya());
+                System.out.println(employee.getName()+" "+employee.getSurname()+" "+employee.getInsurance());
             }
         }
     }

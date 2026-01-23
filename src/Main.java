@@ -19,6 +19,7 @@ public class Main {
 //        companyManagement.printAllEmployeeDetail();
 //        companyManagement.printEmployeeType();
 //        companyManagement.showAllEmployeeBonus();
-          companyManagement.showAllPensionTax();
+//          companyManagement.showAllPensionTax();
+          companyManagement.showAllInsuranceTax();
     }
 }

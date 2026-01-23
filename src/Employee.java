@@ -19,6 +19,9 @@ public class Employee {
     public Double getPensiya(){
         return 0.0;
     }
+    public Double getInsurance(){
+        return 0.0;
+    }
     public Double getOneTimeBonus(){
         return 0.0;
     }
