@@ -17,4 +17,18 @@ public class SeasonalEmployee  extends  Employee{
     public String getDeteil(){
         return super.getDeteil()+" "+season;
     }
+
+    @Override
+    public String getEmployeeType() {
+        return "Seasonal";
+    }
+
+    @Override
+    public Double getOneTimeBonus() {
+        return getSalary()*0.2;
+    }
+
+    public Double getPensiya() {
+        return getSalary() *0.065;
+    }
 }

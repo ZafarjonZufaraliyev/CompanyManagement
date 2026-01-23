@@ -17,4 +17,19 @@ public class PermanentEmployee extends  Employee{
     public String getDeteil(){
         return super.getDeteil()+" "+room;
     }
+    @Override
+    public String getEmployeeType() {
+        return "Permanent";
+    }
+
+    @Override
+    public Double getOneTimeBonus() {
+        return getSalary()*0.5;
+    }
+
+    @Override
+    public Double getPensiya() {
+        return getSalary() *0.075;
+    }
 }
+

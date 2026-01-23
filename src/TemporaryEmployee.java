@@ -17,4 +17,10 @@ public class TemporaryEmployee extends  Employee{
     public String getDeteil(){
         return super.getDeteil()+" "+ workingHours;
     }
+
+    @Override
+    public String getEmployeeType() {
+        return "Temporary";
+    }
+
 }

@@ -13,6 +13,15 @@ public class Employee {
     public String getDeteil(){
         return  name + " " +surname + " " +work + " " +salary;
     }
+    public String getEmployeeType(){
+        return "Employe";
+    }
+    public Double getPensiya(){
+        return 0.0;
+    }
+    public Double getOneTimeBonus(){
+        return 0.0;
+    }
     public String getName() {
         return name;
     }

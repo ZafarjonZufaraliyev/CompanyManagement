@@ -16,6 +16,9 @@ public class Main {
         TemporaryEmployee temporaryEmployee2=companyManagement.addTemporaryEmployee("Olim","Aliyev","23",12000.0,"Dev");
         TemporaryEmployee temporaryEmployee3=companyManagement.addTemporaryEmployee("Umarbek","Aliyev","23",12000.0,"Dev");
 
-        companyManagement.printAllEmployeeDetail();
+//        companyManagement.printAllEmployeeDetail();
+//        companyManagement.printEmployeeType();
+//        companyManagement.showAllEmployeeBonus();
+          companyManagement.showAllPensionTax();
     }
 }
