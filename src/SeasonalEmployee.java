@@ -34,4 +34,5 @@ public class SeasonalEmployee  extends  Employee{
     public Double getInsurance(){
         return super.getSalary()*0.05;
     }
+
 }

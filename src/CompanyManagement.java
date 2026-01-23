@@ -76,4 +76,13 @@ public class CompanyManagement {
             }
         }
     }
+
+    /* Soliqlardan keyin ishchilarni qoliga tegadigan summa */
+    public void showAllSalaryAfterAllTaxes(){
+        for (Employee employee:arrayEmployee){
+            if (employee!=null){
+                System.out.println(employee.getName()+" "+employee.getSurname()+" "+employee.getLastSalary());
+            }
+        }
+    }
 }

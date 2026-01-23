@@ -34,5 +34,7 @@ public class PermanentEmployee extends  Employee{
     public Double getInsurance(){
         return super.getSalary()*0.1;
     }
+
+
 }
 

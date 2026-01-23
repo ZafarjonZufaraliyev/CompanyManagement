@@ -20,6 +20,7 @@ public class Main {
 //        companyManagement.printEmployeeType();
 //        companyManagement.showAllEmployeeBonus();
 //          companyManagement.showAllPensionTax();
-          companyManagement.showAllInsuranceTax();
+//          companyManagement.showAllInsuranceTax();
+        companyManagement.showAllSalaryAfterAllTaxes();
     }
 }

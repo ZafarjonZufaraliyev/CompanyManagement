@@ -22,6 +22,9 @@ public class Employee {
     public Double getInsurance(){
         return 0.0;
     }
+    public Double getLastSalary(){
+        return salary+getOneTimeBonus()-getPensiya()-getInsurance();
+    }
     public Double getOneTimeBonus(){
         return 0.0;
     }
