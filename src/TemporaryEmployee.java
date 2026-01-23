@@ -14,11 +14,7 @@ public class TemporaryEmployee extends  Employee{
         this.workingHours = workingHours;
     }
 
-    @Override
-    public String toString() {
-        return "TemporaryEmployee{ " +
-                super.toString() +
-                 "workingHours='" + workingHours + '\'' +
-                '}';
+    public String getDeteil(){
+        return super.getDeteil()+" "+ workingHours;
     }
 }

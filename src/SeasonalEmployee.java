@@ -14,11 +14,7 @@ public class SeasonalEmployee  extends  Employee{
         this.season = season;
     }
 
-    @Override
-    public String toString() {
-        return "SeasonalEmployee{ " +
-                super.toString() +
-                 "season='" + season + '\'' +
-                '}';
+    public String getDeteil(){
+        return super.getDeteil()+" "+season;
     }
 }

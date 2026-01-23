@@ -10,7 +10,9 @@ public class Employee {
         this.work = work;
         this.salary = salary;
     }
-
+    public String getDeteil(){
+        return  name + " " +surname + " " +work + " " +salary;
+    }
     public String getName() {
         return name;
     }

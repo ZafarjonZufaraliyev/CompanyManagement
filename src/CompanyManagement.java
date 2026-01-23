@@ -65,24 +65,25 @@ public class CompanyManagement {
         return temporaryEmployee;
     }
 
-    public Object printAllEmployeeDetail(){
-       for (TemporaryEmployee temporaryEmployee:temporaryEmployeeArray){
-           if (temporaryEmployee!=null){
-               System.out.println(temporaryEmployee);
-           }
-       }
-        for (SeasonalEmployee seasonalEmployeeArray:seasonalEmployeeArray){
-            if (seasonalEmployeeArray!=null){
-                System.out.println(seasonalEmployeeArray);
-            }
-        }
+    public void printAllEmployeeDetail(){
 
         for (PermanentEmployee permanentEmployee:permanentEmployeeArray){
             if (permanentEmployee!=null){
-                System.out.println(permanentEmployee);
+                System.out.println(permanentEmployee.getDeteil());
             }
         }
+        for (SeasonalEmployee seasonalEmployeeArray:seasonalEmployeeArray){
+            if (seasonalEmployeeArray!=null){
+                System.out.println(seasonalEmployeeArray.getDeteil());
+            }
+        }
+       for (TemporaryEmployee temporaryEmployee:temporaryEmployeeArray){
+           if (temporaryEmployee!=null){
+               System.out.println(temporaryEmployee.getDeteil());
+           }
+       }
 
-    return AllEmployeeDetail;
+
+
     }
 }

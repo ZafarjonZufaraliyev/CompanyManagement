@@ -10,13 +10,12 @@ public class Main {
 
         SeasonalEmployee seasonalEmployee1=companyManagement.addSeasonalEmployee("Ali","Aliyev","Qish",12000.0,"Dev");
         SeasonalEmployee seasonalEmployee2=companyManagement.addSeasonalEmployee("Vali","Tursunob","Yoz",98000.0,"Menager");
-        SeasonalEmployee seasonalEmployee3=companyManagement.addSeasonalEmployee("Ismat","Ismatov","KUz",12700.0,"Drektor");
+        SeasonalEmployee seasonalEmployee3=companyManagement.addSeasonalEmployee("Ismat","Ismatov","Kuz",12700.0,"Drektor");
 
         TemporaryEmployee temporaryEmployee1=companyManagement.addTemporaryEmployee("Ali","Aliyev","23",12000.0,"Dev");
-        TemporaryEmployee temporaryEmployee2=companyManagement.addTemporaryEmployee("Ali","Aliyev","23",12000.0,"Dev");
-        TemporaryEmployee temporaryEmployee3=companyManagement.addTemporaryEmployee("Ali","Aliyev","23",12000.0,"Dev");
+        TemporaryEmployee temporaryEmployee2=companyManagement.addTemporaryEmployee("Olim","Aliyev","23",12000.0,"Dev");
+        TemporaryEmployee temporaryEmployee3=companyManagement.addTemporaryEmployee("Umarbek","Aliyev","23",12000.0,"Dev");
 
-
-        System.out.println(companyManagement.printAllEmployeeDetail());
+        companyManagement.printAllEmployeeDetail();
     }
 }
