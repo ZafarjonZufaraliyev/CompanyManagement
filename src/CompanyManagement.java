@@ -55,13 +55,13 @@ public class CompanyManagement {
 //    }
 
     /* Ishchlarni ism familyasi va qachon ishlashini chiqarish */
-//    public void printEmployeeType(){
-//        for (Employee employee:arrayEmployee){
-//            if (employee!=null){
-//                System.out.println(employee.getName()+" "+employee.getSurname()+" "+employee.getEmployeeType());
-//            }
-//        }
-//    }
+    public void printEmployeeType(){
+        for (Employee employee:arrayEmployee){
+            if (employee!=null){
+                System.out.println(employee.getName()+" "+employee.getSurname()+" "+employee.getEmployeeType());
+            }
+        }
+    }
 
     /* Ishchilarni bonusni hisoblash */
 //    public void showAllEmployeeBonus(){

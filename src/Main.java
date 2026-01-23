@@ -23,10 +23,10 @@ public class Main {
 
         EarEmployee employee1=companyManagement.addEarEmployee("Sanjar","Suloymonov","Quloq",20.0);
 //        companyManagement.printAllEmployeeDetail();
-//        companyManagement.printEmployeeType();
+        companyManagement.printEmployeeType();
 //        companyManagement.showAllEmployeeBonus();
 //        companyManagement.showAllPensionTax();
 //        companyManagement.showAllInsuranceTax();
-        companyManagement.showAllSalaryAfterAllTaxes();
+//        companyManagement.showAllSalaryAfterAllTaxes();
     }
 }
